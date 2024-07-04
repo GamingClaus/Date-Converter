@@ -113,12 +113,12 @@ public class DateFrame extends JFrame implements ActionListener,KeyListener{
 
         englishdate = new JRadioButton();
         englishdate.setSelected(true);
-        englishdate.setText("Nepali To English Date");
+        englishdate.setText("English To Nepali Date");
         englishdate.setFont(new Font("Calibri",Font.PLAIN,15));
         englishdate.setFocusable(false);
         
         nepalidate = new JRadioButton();
-        nepalidate.setText("English to Nepali Date");     
+        nepalidate.setText("Nepali to English Date");     
         nepalidate.setFont(new Font("Calibri",Font.PLAIN,15));
         nepalidate.setFocusable(false);
 
